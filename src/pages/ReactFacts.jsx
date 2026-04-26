@@ -1,8 +1,10 @@
-import "./facts.css";
+import "../facts.css";
+import FactsNav from "../components/factsNav";
 
 const ReactFacts = () => {
   return (
     <main className="facts-page">
+      <FactsNav />
       <section className="facts-shell" aria-label="React facts card">
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
