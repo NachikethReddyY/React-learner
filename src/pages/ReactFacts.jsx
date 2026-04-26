@@ -1,4 +1,4 @@
-import "./facts.css";
+import "../facts.css";
 
 const ReactFacts = () => {
   return (
