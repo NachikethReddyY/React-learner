@@ -1,4 +1,4 @@
-import "../facts.css";
+import "../styles/facts.css";
 import FactsNav from "../components/factsNav";
 
 const ReactFacts = () => {

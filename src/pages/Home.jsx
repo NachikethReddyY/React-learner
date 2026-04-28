@@ -1,19 +1,8 @@
-import "../App.css";
-import reactFactsImg from "/Reactfacts.png";
+import "../styles/home.css";
 import Card from "../components/Card";
+import projects from "../Data/projects";
 
 function Home() {
-  const projects = [
-    {
-      id: 1,
-      title: "React Facts",
-      description: "A simple React app that displays fun facts about React.",
-      date: "2026-04-26",
-      image: "../../public/Reactfacts.png",
-      link: "/facts"
-    },
-    // Add more projects here as needed
-  ];
   return (
     <>
       <main className="hub">
